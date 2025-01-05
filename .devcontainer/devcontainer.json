@@ -1,0 +1,7 @@
+{
+  "name": "Python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  }
+}
