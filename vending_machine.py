@@ -8,12 +8,12 @@ def display_menu():
     print("3. Candy - $0.75")
     print("Enter 'q' to quit.")
 
-# Calculate change (intentional logic error: incorrect subtraction)
+# Calculate change
 def calculate_change(payment, cost):
-    return payment - cost - 0.10  # Intentional error
+    return payment - cost - 0.10  
 
 def vending_machine():
-    items = {"1": 1.25, "2": 1.00, "3": 0.75}
+    items = {"1": 1.25, "2": 1.00, "4": 0.75}
     while True:
         display_menu()
         choice = input("Select an item (1-3) or 'q' to quit: ")
@@ -38,4 +38,4 @@ def vending_machine():
 
 # Intentional syntax error: missing parentheses
 if __name__ == "__main__":
-    vending_machine()
+    vending_machine
