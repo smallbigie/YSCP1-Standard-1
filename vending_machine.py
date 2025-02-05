@@ -18,6 +18,7 @@ def display_menu():
 def calculate_change(payment, cost):
     return payment - cost - 0.10
 
+# Operate Vending Machine
 def vending_machine():
     items = {"1": 1.25, "2": 1.00} 
     while True:
