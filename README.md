@@ -4,38 +4,28 @@ A Python project to explore debugging and error handling using Visual Studio Cod
 # Vending Machine Debugging Project
 
 ## **Overview**
-This project simulates a simple vending machine and involves writing, running, and debugging Python code using Visual Studio Code in GitHub Codespaces.
+This project simulates a simple vending machine and involves testing, running, and debugging Python code using Visual Studio Code in GitHub Codespaces.
 
 ---
 
 ## **Errors and Debugging**
 
 ### **1. Syntax Error**
-- **Error**: Missing parentheses in `vending_machine()` call.
-- **How to Identify**: IDE flagged the missing parentheses.
-- **Solution**: Add parentheses to fix the syntax error.
+- **Error**: There is 1 **Syntax Error** in the code.
 
 ### **2. Run-Time Error**
-- **Error**: (Introduce a run-time error, e.g., divide by zero or KeyError.)
-- **How to Identify**: Program crashed during execution.
-- **Solution**: (Explain how the error was fixed.)
+- **Error**: There is 1 **Run-Time Error** in the code.
 
 ### **3. Logic Error**
-- **Error**: Incorrect change calculation in the `calculate_change` function.
-- **How to Identify**: Incorrect output for the change.
-- **Solution**: Fixed the subtraction logic by removing `- 0.10`.
+- **Error**: There is 1 **Logic Error** in the code.
 
 ---
 
 ## **Reflection**
 
-### **1. Interpreted vs. Compiled Languages**
-- **Python (Interpreted)**: Executes code line-by-line, no need to compile before running.
-- **C++ (Compiled)**: Requires compiling source code into machine code before execution, which improves performance.
+### **Explain the differences between interpreted and compiled programming languages.**
 
-### **2. High-Level vs. Low-Level Languages**
-- **High-Level (Python)**: Easier to write and understand, closer to human language.
-- **Low-Level (Assembly)**: Directly interacts with hardware, more complex but faster.
+### **Identify characteristics of high-level and low-level programming languages.**
 
 ---
 
