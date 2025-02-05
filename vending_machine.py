@@ -20,9 +20,9 @@ def calculate_change(payment, cost):
 
 # Operate Vending Machine
 def vending_machine():
-    items = {"1": 1.25, "2": 1.00} 
+    items = {"1": 1.25, "2": 1.00, "3": 0.75} 
     while True:
-        display_menu
+        display_menu()
         choice = input("\nSelect an item (1-3) or 'q' to quit: ")
 
         if choice == 'q':
@@ -35,7 +35,7 @@ def vending_machine():
 
         try:
             payment = float(input(f"\nEnter payment for item (${items[choice]:.2f}): "))
-            if payment < items[choice]:
+            if payment < items[choice] + 0.10:
                 print("\nInsufficient payment. Transaction canceled.")
                 continue
             change = calculate_change(payment, items[choice])
